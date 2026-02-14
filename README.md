@@ -60,8 +60,7 @@ The dashboard enables insurance companies to identify high-potential leads and o
 ---
 
 ## Dashboard Preview
-
-![Vehicle Insurance Cross Sell Dashboard](https://github.com/user-attachments/assets/43c74337-9a45-4cb5-8f20-f245717e350b)
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e6652bed-d723-4f89-8836-d9bba2c7c3a6" />
 
 
 ---
