@@ -1,51 +1,72 @@
-# Airport-Accident-Analysis-Tableau
-# Vehicle Insurance Cross-Sell Analysis – Tableau Dashboard
+# Aviation Accident Analysis – Tableau Dashboard
 
-An interactive Tableau dashboard designed to analyze customer segmentation, insurance coverage gaps, and cross-sell opportunities for vehicle insurance.
+An interactive Tableau dashboard designed to analyze aviation accident patterns, risk factors, aircraft damage levels, and operational insights across the United States.
 
 ---
 
 ## Project Overview
 
-This project focuses on identifying potential customers for vehicle insurance cross-selling by analyzing:
+This project analyzes historical aviation accident data to identify:
 
-- Existing health insurance customers
-- Customers without prior vehicle insurance
-- Interested customer segments
-- Premium trends
-- Vehicle damage history
-- Age-based segmentation
+- Total accident trends
+- Geographic accident concentration
+- Aircraft damage severity
+- Accident phase distribution
+- Purpose of flight risk patterns
+- Airport-level accident hotspots
 
-The dashboard enables insurance companies to identify high-potential leads and optimize targeted marketing campaigns.
+The dashboard supports aviation safety analysis and risk assessment for data-driven decision-making.
 
 ---
 
 ## Key KPIs
 
-- Total Clients with Health Insurance: 381K+
-- Clients without Previous Vehicle Insurance: 174K+
-- Clients Interested in Vehicle Insurance: 46K+
-- Average Premium (No Damage): 30.56K
-- Gender Distribution: Male 206K | Female 175K
+- Total Aviation Accidents: 88,889
+- Aviation Accidents in United States: 82,248 (92.53%)
+- Aviation Accidents for Airplane Category: 27,617 (31.07%)
 
 ---
 
 ## Dashboard Features
 
-### Customer Segmentation
-- Client Age-wise Count of Vehicles
-- Age Bin Selector for dynamic grouping
-- Vehicle Age segmentation (<1 year, 1–2 years, >2 years)
+### Accident Overview
+- Total accident count
+- US vs overall accident distribution
+- Airplane category accident percentage
 
-### Risk & Damage Analysis
-- Vehicle Damage Percentage Distribution
-- Comparison of damage vs non-damage customers
-- Risk exposure insights by vehicle age
+### Geographic Analysis
+- Top 10 Aviation Accidents by Airport Location
+- Accident concentration across major airports
 
-### Cross-Sell Opportunity Analysis
-- Identification of customers with health insurance but no vehicle insurance
-- Interested customer targeting
-- Premium analysis for pricing strategy
+### Trend Analysis
+- Aviation Accident Trend by Year
+- Long-term accident decline pattern
+
+### Risk Analysis by Purpose of Flight
+- Personal flights contribute the highest accident volume
+- Instructional and business flights analysis
+- Breakdown by operational category
+
+### Phase of Flight Analysis
+- Landing and approach phases show higher accident percentages
+- Climb, cruise, and descent comparisons
+- Percentage contribution by each flight phase
+
+### Aircraft Damage Analysis
+- Substantial damage: 72%+
+- Destroyed aircraft: 20%+
+- Minor damage and unknown categories breakdown
+
+---
+
+## Filters Included
+
+- Aircraft Category
+- Aircraft Damage
+- Airport Name
+- Aircraft Make
+- Purpose of Flight
+- Country
 
 ---
 
@@ -54,42 +75,19 @@ The dashboard enables insurance companies to identify high-potential leads and o
 - Tableau
 - Data Visualization
 - Dashboard Design
-- Customer Segmentation Analysis
-- Cross-Sell Strategy Modeling
+- Risk Analysis
+- Trend Analysis
+- Geographic Analytics
 
 ---
 
 ## Dashboard Preview
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e6652bed-d723-4f89-8836-d9bba2c7c3a6" />
+![WhatsApp Image 2026-02-12 at 15 17 42](https://github.com/user-attachments/assets/add454da-cb7d-4862-9d15-0670d1df0e4c)
 
 
 ---
-
 ## Key Insights
 
-- Significant number of customers already have health insurance but lack vehicle coverage.
-- Younger age groups (18–30) show higher vehicle ownership.
-- Vehicles under 1 year show lower damage probability.
-- High cross-sell potential exists among clients without prior vehicle insurance.
-- Male customers slightly dominate overall vehicle insurance base.
-
----
-
-## Business Impact
-
-- Identified high-value cross-sell customer segments.
-- Supported targeted marketing campaigns.
-- Improved premium pricing strategy visibility.
-- Enhanced customer segmentation for insurance growth.
-
----
-
-## Conclusion
-
-This project demonstrates:
-
-- Strong Tableau dashboard development skills
-- Cross-sell opportunity identification
-- Customer segmentation analytics
-- Risk-based premium evaluation
-- Data-driven insurance marketing insights
+- Majority of aviation accidents occurred in the United States.
+- Accident frequency has gradually declined over the years.
+- Landing and approach p
